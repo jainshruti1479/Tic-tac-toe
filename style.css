@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(186 151 220 / 34%)
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box {
+    width: 28vw;
+    margin-top: 100px;
+}
+
+.cells {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vw;
+    border: 2px solid black;
+    font-size: 4vw;
+}
+.cells:hover {
+    background-color: #72008052;
+}
+
+.bt-0{
+    border-top: 0px;
+}
+.bb-0{
+    border-bottom: 0px;
+}
+.bl-0{
+    border-left: 0px;
+}
+.br-0{
+    border-right: 0px;
+}
